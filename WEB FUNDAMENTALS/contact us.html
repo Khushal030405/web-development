@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Tours and Travels</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .contact-form {
+            margin-top: 30px;
+        }
+        .contact-form label,
+        .contact-form input,
+        .contact-form textarea {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            font-size: 16px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .contact-form textarea {
+            height: 150px;
+        }
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+        .map-container {
+            margin-top: 30px;
+        }
+        .map-responsive {
+            overflow:hidden;
+            padding-bottom:56.25%;
+            position:relative;
+            height:0;
+        }
+        .map-responsive iframe {
+            left:0;
+            top:0;
+            height:100%;
+            width:100%;
+            position:absolute;
+        }
+        .panel{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 30px;
+            width: 100%;
+           
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+
+        <div class="contact-info">
+            <p><strong>Phone:</strong> [9769625855]</p>
+            <p><strong>Email:</strong> <a href="mailto:info@tours and travels.com">info@tours and travel.com</a></p>
+            <p><strong>Address:</strong> 123 Tour Street, Mumbai, India</p>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://www.facebook.com/TOUR AND TRAVEL" target="_blank"><img src="https://th.bing.com/th?id=OIP.2LDrXXHjeCNl0_BcrLxIOQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="Facebook"></a>
+            <a href="https://www.twitter.com/TOUR AND TRAVEL" target="_blank"><img src="https://th.bing.com/th?id=OIP.xBjedU7TqMZjjeGHW6lTIwHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="Twitter"></a>
+            <a href="https://www.instagram.com/TOUR AND TRAVEL" target="_blank"><img src="https://th.bing.com/th?id=OIP.dz0AoUIACrVD-nybEtW7yAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="Instagram"></a>
+        </div>
+
+        <div class="contact-form">
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="map-container">
+            <h2>Our Location</h2>
+            <div class="map-responsive">
+                <iframe src="https://www.google.co.in/maps/place/VKG+Corporate+Centre/@19.1111474,72.8705,19z/data=!3m1!5s0x3be7b800e3ec2a17:0x3954577423144c12!4m6!3m5!1s0x3be7c83ee74e1cd3:0xaedab5564f5cb674!8m2!3d19.1109122!4d72.8707984!16s%2Fg%2F11bwhb9__2?entry=ttu" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="panel">
+<button><a href="INDEX.HTML">return to home page</a></button>
+    </footer>
+</div>
+
+</body>
+</html>
